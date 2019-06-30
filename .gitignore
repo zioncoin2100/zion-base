@@ -1,0 +1,9 @@
+/node_modules/
+/tmp/
+/lib/
+/dist/
+/coverage/
+/jsdoc/
+.DS_Store
+.vscode
+.history
