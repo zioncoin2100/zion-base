@@ -114,7 +114,7 @@ export class Asset {
   }
 
   /**
-   * @see [Assets concept](http://lhtech.info/doc/get-started)
+   * @see [Assets concept](https://zionc.info/doc/get-started)
    * @returns {string} Asset type. Can be one of following types:
    *
    * * `native`

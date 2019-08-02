@@ -9,7 +9,7 @@ import { StrKey } from '../strkey';
  * @param {object} opts Options object
  * @param {string} opts.destination - Destination account ID to create an account for.
  * @param {string} opts.startingBalance - Amount in ORC the account should be funded for. Must be greater
- *                                   than the [reserve balance amount](http://lhtech.info/doc/get-started).
+ *                                   than the [reserve balance amount](https://zionc.info/doc/get-started).
  * @param {string} [opts.source] - The source account for the payment. Defaults to the transaction's source account.
  * @returns {xdr.CreateAccountOp} Create account operation
  */

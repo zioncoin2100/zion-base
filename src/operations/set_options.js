@@ -42,7 +42,7 @@ function weightCheckFunction(value, name) {
  * @param {string} [opts.homeDomain] - sets the home domain used for reverse federation lookup.
  * @param {string} [opts.source] - The source account (defaults to transaction source).
  * @returns {xdr.SetOptionsOp}  XDR operation
- * @see [Account flags](http://lhtech.info/doc/get-started)
+ * @see [Account flags](https://zionc.info/doc/get-started)
  */
 export function setOptions(opts) {
   const attributes = {};

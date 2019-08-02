@@ -12,7 +12,7 @@ export const BASE_FEE = 100; // Stroops
 /**
  * @constant
  * @see {@link TransactionBuilder#setTimeout}
- * @see [Timeout](http://lhtech.info/doc/get-started)
+ * @see [Timeout](https://zionc.info/doc/get-started)
  */
 export const TimeoutInfinite = 0;
 
@@ -34,7 +34,7 @@ export const TimeoutInfinite = 0;
  * not submitting this transaction and submitting another one instead, it'll fail due to
  * the sequence number being wrong. So if you decide not to use a built transaction,
  * make sure to update the source account's sequence number 
- * with [Server.loadAccount](http://lhtech.info/doc/get-started) before creating another transaction.</p>
+ * with [Server.loadAccount](https://zionc.info/doc/get-started) before creating another transaction.</p>
  *
  * <p>The following code example creates a new transaction with {@link Operation.createAccount} and
  * {@link Operation.payment} operations.

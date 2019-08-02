@@ -7,7 +7,7 @@ import { StrKey } from './strkey';
  *
  * `Account` represents a single account in Zion network and its sequence number.
  * Account tracks the sequence number as it is used by {@link TransactionBuilder}.
- * See [Accounts](http://lhtech.info/doc/get-started) for more information about how
+ * See [Accounts](https://zionc.info/doc/get-started) for more information about how
  * accounts work in Zion.
  * @constructor
  * @param {string} accountId ID of the account (ex. `GB3KJPLFUYN5VL6R3GU3EGCGVCKFDSD7BEDX42HWG5BWFKB3KQGJJRMA`)

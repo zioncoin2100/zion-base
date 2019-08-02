@@ -21,26 +21,26 @@ const MAX_INT64 = '9223372036854775807';
  * When set using `{@link Operation.setOptions}` option, requires the issuing account to
  * give other accounts permission before they can hold the issuing account’s credit.
  * @constant
- * @see [Account flags](http://lhtech.info/doc/get-started)
+ * @see [Account flags](https://zionc.info/doc/get-started)
  */
 export const AuthRequiredFlag = 1 << 0;
 /**
  * When set using `{@link Operation.setOptions}` option, allows the issuing account to
  * revoke its credit held by other accounts.
  * @constant
- * @see [Account flags](http://lhtech.info/doc/get-started)
+ * @see [Account flags](https://zionc.info/doc/get-started)
  */
 export const AuthRevocableFlag = 1 << 1;
 /**
  * When set using `{@link Operation.setOptions}` option, then none of the authorization flags
  * can be set and the account can never be deleted.
  * @constant
- * @see [Account flags](http://lhtech.info/doc/get-started)
+ * @see [Account flags](https://zionc.info/doc/get-started)
  */
 export const AuthImmutableFlag = 1 << 2;
 
 /**
- * `Operation` class represents [operations](http://lhtech.info/doc/get-started) in Zion network.
+ * `Operation` class represents [operations](https://zionc.info/doc/get-started) in Zion network.
  * Use one of static methods to create operations:
  * * `{@link Operation.createAccount}`
  * * `{@link Operation.payment}`

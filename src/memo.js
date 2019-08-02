@@ -31,7 +31,7 @@ export const MemoReturn = 'return';
  *
  * @param {string} type - `MemoNone`, `MemoID`, `MemoText`, `MemoHash` or `MemoReturn`
  * @param {*} value - `string` for `MemoID`, `MemoText`, buffer of hex string for `MemoHash` or `MemoReturn`
- * @see [Transactions concept](http://lhtech.info/doc/get-started)
+ * @see [Transactions concept](https://zionc.info/doc/get-started)
  * @class Memo
  */
 export class Memo {
